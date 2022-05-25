@@ -60,6 +60,8 @@ namespace Emby.Naming.Common
                 ".fli",
                 ".flv",
                 ".001",
+                ".7z",
+                ".rar",
                 ".tp"
             };
 
