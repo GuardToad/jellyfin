@@ -1,6 +1,6 @@
 ARG DOTNET_VERSION=5.0
 
-FROM node:alpine as web-builder
+FROM node:16.15-alpine3.15 as web-builder
 ARG JELLYFIN_WEB_VERSION=master
 RUN apk add curl git zlib zlib-dev autoconf g++ make libpng-dev gifsicle alpine-sdk automake libtool make gcc musl-dev nasm python3 \
  && curl -L https://github.com/jellyfin/jellyfin-web/archive/v10.7.7.tar.gz | tar zxf - \
