@@ -28,4 +28,4 @@ jobs:
         push: true
         platforms: linux/amd64
         tags: |
-          ghcr.io/guardtoad/jellyfin
+          ghcr.io/guardtoad/jellyfin:master
