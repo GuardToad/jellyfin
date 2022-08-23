@@ -62,7 +62,8 @@ namespace Emby.Naming.Common
                 ".001",
                 ".7z",
                 ".rar",
-                ".tp"
+                ".tp",
+                ".zip"
             };
 
             VideoFlagDelimiters = new[]
