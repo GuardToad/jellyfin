@@ -78,7 +78,8 @@ namespace Emby.Naming.Common
                 ".webm",
                 ".wmv",
                 ".wtv",
-                ".xvid"
+                ".xvid",
+                ".zip"
             };
 
             VideoFlagDelimiters = new[]
